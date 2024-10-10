@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Decor Dreams</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    <body>
+        <div class="banner">
+            <div class="navbar">
+                <h1>Decor Dream</h1>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search">
+                </div>
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                  
+                    <li>
+                        <a href="#" onclick="toggleDropdown()">Category</a>
+                        <div class="dropdown" id="dropdownMenu">
+                            <a href="newArrival.html">New Arrivals</a>
+                            <a href="lighting.html">Lighting</a>
+                            <a href="sofas.html">Living Room</a>
+                            <a href="beds.html">Bedroom & Furniture</a>
+                        </div>
+                    </li>
+                </ul>
+                <a href="#" class="sign-in">Sign In</a> <!-- Moved Sign In link outside the ul -->
+            </div>
+            <div class="content">
+                <h1>Style Your Home With Us</h1>
+                <button id="shopButton" type="button" onclick="shopNow()"><span></span>SHOP NOW</button>
+            </div>
+        </div>
+        <div class="products">
+          
+            <h2>Best Deals</h2>
+            <div class="product-row">
+           
+                <div class="product">
+                    
+                    <img src="Lighting.jpeg" alt="light" width="200" height="200">
+                    <p>Kitchen lighting</p>
+                    <p>By Luxe Living</p>
+                    <p class="price"><span class="original-price">Rs 20 000</span> Rs 18 000</p> 
+                    <ul>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                    </ul>
+                    <button class="button">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="bedroom.jpeg" alt="bedroom" width="200" height="200">
+                    <p>King size Bed</p>
+                    <p>By Luxe Living</p>
+                    <p class="price"><span class="original-price">Rs 40 000</span> Rs 25 000</p> 
+                    <ul>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                    </ul>
+                    <button class="button">Add to Cart</button>
+                </div>
+
+                <div class="product">
+                    <img src="chair.jpg" alt="chair" width="200" height="200">
+                    <p>Luxe couch</p>
+                    <p>By Luxe Living</p>
+                    <p class="price"><span class="original-price">Rs 13 000</span> Rs 7 000</p> 
+                    <ul>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star checked"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                    </ul>
+                    <button class="button">Add to Cart</button>
+             
+                </div>
+            </div>
+        </div>
+        
+        <div class="animated-section">
+            <img src="animate.webp" alt="Animated Image" class="animated-image">
+            <div class="centered-text">
+                <span class="flash-deals">Flash deals up to 50%</span>
+                <sub class="subscript">Subscribe to our website</sub>
+            </div>
+        </div>
+              
+
+
+        <script src="script.js"></script>
+    </body>
